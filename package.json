@@ -1,4 +1,5 @@
 {
+  "homepage": "http://kishoranushka.github.io/pinakassignment",
   "name": "pinaklabs",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +9,10 @@
     "build": "vite build --emptyOutDir",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy" : "npm run build",
     "deploy": "gh-pages -d dist"
+    
+
   },
   "dependencies": {
     "react": "^18.3.1",
